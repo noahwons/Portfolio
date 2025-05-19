@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = ({ view, setView }) => {
     return (
-        <nav className="flex shadow-md mx-auto justify-center max-w-md space-x-4 mt-4 py-2 px-2 bg-blue-200 rounded-xl">
+        <nav className="flex shadow-md mx-auto justify-center md:max-w-md md:rounded-xl space-x-4 mt-4 py-2 px-2 bg-blue-200 sm:max-w-screen">
             {view === 'home' ?
                 <button
                     className="bg-blue-500 shadow-md text-white px-4 py-2 rounded-xl hover:bg-blue-500 hover:text-white"

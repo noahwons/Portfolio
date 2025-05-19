@@ -18,7 +18,7 @@ const Project = ({
     const hasImage = imageSrc && imageSrc.trim() !== ''
 
     return (
-        <div className="bg-white shadow-lg mt-8 rounded-xl p-6 mb-8 max-w-screen mx-auto">
+        <div className="bg-white shadow-lg rounded-xl p-6 max-w-screen mx-auto">
 
             {hasImage ? (
                 <div className="flex items-start">
