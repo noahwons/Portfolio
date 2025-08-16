@@ -1,16 +1,73 @@
 import React from 'react'
 import Project from './Project'
 
+// NOTE: This repurposes the Projects grid into case‑study style "Initiatives"
+// to align with Matthew Wons' PMP/Service Program Management background.
+// Replace imageSrc with real thumbnails (e.g., dashboards, network diagrams, or brand-safe stock)
+
 const Projects = () => {
     return (
         <div className="container mx-auto px-4 py-8">
+            <h1 className="text-3xl lg:text-4xl font-extrabold mb-6">Featured Initiatives</h1>
+            <p className="text-gray-700 mb-8 max-w-3xl">
+                A selection of delivery programs and transformations I’ve led across network, voice, and service delivery—
+                emphasizing stakeholder alignment, risk control, on-time execution, and measurable business outcomes.
+            </p>
+
             <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-                <Project title={"Cy Match"} imageSrc={""} description={"Cy Match enables users to find a job with the click of a button. This project allows users to save and dismiss real jobs, while also allowing the user to create a profile and upload their resume."} link={"https://github.com/noahwons/cymatch"} />
-                <Project title={"M2I: CyLaunch"} imageSrc={""} description={"Developed the embedded software for the payload device, hitting 8/8 NASA datapoints pre-launch"} link={"https://github.com/CyLaunch/Payload_Spring_25"} />
-                <Project title={"Image Detection Model"} imageSrc={""} description={"Developed and trained a model responsible for identifing bubbles in viles for scientific analysis."} link={"https://youtube.com/shorts/JZtv6VgSbyo?feature=share"} />
-                <Project title={"Calcly"} imageSrc={""} description={"Developed a mobile application using Flutter responsible for communicating with an AI model trained on previous calculus exams from Iowa State University"} link={"https://github.com/noahwons/Calcly"} />
-                <Project title={"Math Medic"} imageSrc={""} description={"Built a fully functional graphical calulator website with mathplot lib and other python libraries"} link={"https://github.com/noahwons/MathMedic/tree/main"} />
-                <Project title={"Task Manager"} imageSrc={""} description={"Built a terminal based python application enabling the user to create, schedule and display tasks while also providing a reccomendation feature."} link={"https://www.youtube.com/watch?v=MFiSZ3vivt8"} />
+                <Project
+                    title={"Global Network Device Migration (Clarios)"}
+                    imageSrc={""}
+                    description={
+                        "Transitioned ~4,000 network devices from Verizon to NTT with zero unplanned downtime. Coordinated orders, cutovers, and vendor resources; maintained executive reporting and daily standups to drive schedule adherence."
+                    }
+                    link={"#"}
+                />
+
+                <Project
+                    title={"Global Voice Modernization: Avaya → Microsoft Teams"}
+                    imageSrc={""}
+                    description={
+                        "Managed end‑to‑end voice migration including procurement, number porting, change windows, and comms. Established repeatable implementation process and delivered by region with clear stakeholder updates."
+                    }
+                    link={"#"}
+                />
+
+                <Project
+                    title={"Americas Service Delivery & Governance"}
+                    imageSrc={""}
+                    description={
+                        "Owned SLA oversight, reporting cadence, and customer advocacy across the Americas. Drove incident reviews, ensured corrective actions, and produced executive dashboards for accountability and transparency."
+                    }
+                    link={"#"}
+                />
+
+                <Project
+                    title={"Program Planning, Budget & Risk Management"}
+                    imageSrc={""}
+                    description={
+                        "Built project plans, managed budgets, and tracked risks/issues to closure. Partnered with cross‑functional teams to sequence work, remove blockers, and keep delivery within scope and approved financials."
+                    }
+                    link={"#"}
+                />
+
+                <Project
+                    title={"Implementation Playbooks & PMO Process"}
+                    imageSrc={""}
+                    description={
+                        "Authored implementation guides and runbooks covering intake → delivery → handoff. Standardized status reporting and change control to improve predictability and knowledge transfer."
+                    }
+                    link={"#"}
+                />
+
+                <Project
+                    title={"Stakeholder Communications & Executive Reporting"}
+                    imageSrc={""}
+                    description={
+                        "Led daily standups and customer calls; produced concise status readouts for leadership. Ensured clear escalation paths and timely decisions across partners and vendors."
+                    }
+                    link={"#"}
+                />
             </div>
         </div>
     )

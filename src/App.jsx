@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 text-gray-900">
       <header className="p-4 shadow-md bg-white flex justify-center">
-        <h1 className="text-5xl font-bold">Noah Wons</h1>
+        <h1 className="text-5xl font-bold">Matthew Wons</h1>
       </header>
 
       <Navbar view={view} setView={setView} />

@@ -14,24 +14,18 @@ const Contact = () => {
                         <li className="flex items-center">
                             <Mail className="w-6 h-6 text-blue-600 mr-3" />
                             <a href="mailto:noahwons@gmail.com" className="text-gray-700 hover:text-blue-500 transition">
-                                noahwons@gmail.com
+                                mattwons@gmail.com
                             </a>
                         </li>
                         <li className="flex items-center">
                             <Linkedin className="w-6 h-6 text-blue-500 mr-3" />
-                            <a href="https://linkedin.com/in/noah-wons/" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-500 transition">
-                                linkedin.com/in/noah-wons
-                            </a>
-                        </li>
-                        <li className="flex items-center">
-                            <Github className="w-6 h-6 text-blue-500 mr-3" />
-                            <a href="https://github.com/noahwons" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-500 transition">
-                                github.com/noahwons
+                            <a href="https://www.linkedin.com/in/matthewwons" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-blue-500 transition">
+                                linkedin.com/in/matthewwons
                             </a>
                         </li>
                         <li className="flex items-center">
                             <Phone className="w-6 h-6 text-blue-500 mr-3" />
-                            <span className="text-gray-700">(331) 223-1327</span>
+                            <span className="text-gray-700">(815) 529-6005</span>
                         </li>
                     </ul>
                 </div>
